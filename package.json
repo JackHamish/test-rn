@@ -1,6 +1,6 @@
 {
 	"name": "@jack_hamish/awesome-library",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "test",
 	"main": "lib/commonjs/index",
 	"module": "lib/module/index",
@@ -34,7 +34,11 @@
 		"prepare": "bob build",
 		"release": "release-it"
 	},
-	"keywords": ["react-native", "ios", "android"],
+	"keywords": [
+		"react-native",
+		"ios",
+		"android"
+	],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/JackHamish/awesome-library.git"
@@ -86,7 +90,9 @@
 		]
 	},
 	"commitlint": {
-		"extends": ["@commitlint/config-conventional"]
+		"extends": [
+			"@commitlint/config-conventional"
+		]
 	},
 	"release-it": {
 		"git": {
@@ -107,7 +113,10 @@
 	},
 	"eslintConfig": {
 		"root": true,
-		"extends": ["@react-native", "prettier"],
+		"extends": [
+			"@react-native",
+			"prettier"
+		],
 		"rules": {
 			"prettier/prettier": [
 				"error",
@@ -121,7 +130,10 @@
 			]
 		}
 	},
-	"eslintIgnore": ["node_modules/", "lib/"],
+	"eslintIgnore": [
+		"node_modules/",
+		"lib/"
+	],
 	"prettier": {
 		"quoteProps": "consistent",
 		"singleQuote": true,
